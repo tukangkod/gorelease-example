@@ -1,7 +1,6 @@
 builds:
-- main: main.go
-  binary: hello-world
-  goos:
-    - windows
-  goarch:
-    - amd64
+ - binary: hello-world
+   goos:
+     - windows
+   goarch:
+     - amd64
