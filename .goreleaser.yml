@@ -4,7 +4,6 @@ builds:
   goos:
     - windows
     - darwin
-    - linux
   goarch:
     - amd64
 archive:
@@ -12,6 +11,3 @@ archive:
   replacements:
     amd64: 64-bit
     darwin: macOS
-    linux: Tux
-  files:
-    - hello-world.license.txt
